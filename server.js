@@ -6,7 +6,7 @@ const path = require('path');
 const app = express();
 
 // === KONEKSI MONGODB ===
-const MONGODB_URI = 'mongodb+srv://inklusiteknologi:ZQke3Zuj6jKbmf87@inklusiteknologi.g9awxur.mongodb.net/inklusi-teknologi?retryWrites=true&w=majority';
+const MONGODB_URI = 'mongodb+srv://inklusiteknologi:Bandung123@inklusiteknologi.g9awxur.mongodb.net/inklusi-teknologi?retryWrites=true&w=majority';
 mongoose.connect(MONGODB_URI);
 
 // === MODEL ===
