@@ -160,7 +160,7 @@ app.get('/login', (req, res) => {
     res.sendFile(path.join(__dirname, 'public', 'Admin', 'login.html'));
 });
 app.get('/admin', requireAdmin, (req, res) => {
-    res.sendFile(path.join(__dirname, 'public', 'Admin', 'dashboard.html'));
+    res.sendFile(path.join(__dirname, 'public', 'Admin', 'index.html'));
 });
 
 // === API: MANAJEMEN USER AKTIF (ADMIN) ===
