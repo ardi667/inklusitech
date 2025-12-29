@@ -21,13 +21,16 @@
         /* WhatsApp Chat Background */
         .chat-bg {
             flex: 1;
-            background-image: url('https://user-images.githubusercontent.com/15075759/28719144-86dc0f70-73b1-11e7-911d-60d70fcded21.png');
+            background-image: url('../Assets/images/hero8.png');
             background-repeat: repeat;
             background-color: #0b141a;
             opacity: 0.4;
             position: fixed;
             inset: 0;
             z-index: -1;
+            /* Filter Blur ditambahkan di sini */
+            filter: blur(8px);
+            transform: scale(1.1); /* Mencegah pinggiran putih akibat blur */
         }
 
         /* Bubble Chat Styles */
@@ -311,7 +314,7 @@
                         Data berhasil dikirim ke server Operator. Mohon cek inbox Anda secara berkala.
                     </p>
                     <div class="mt-8 flex flex-col gap-4">
-                        <button onclick="location.href='/prosesend'" class="cyber-button px-6 py-3 text-sm font-bold">
+                        <button onclick="location.href='/prosesend'" class="bg-cyan-600 hover:bg-cyan-700 px-6 py-3 text-sm font-bold rounded-lg transition-colors">
                          LANJUTKAN
                         </button>
                     </div>
